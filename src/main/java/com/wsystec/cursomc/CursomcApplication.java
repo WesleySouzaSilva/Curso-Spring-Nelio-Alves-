@@ -28,8 +28,8 @@ import com.wsystec.cursomc.repositories.EnderecoRepository;
 import com.wsystec.cursomc.repositories.EstadoRepository;
 import com.wsystec.cursomc.repositories.ItemPedidoRepository;
 import com.wsystec.cursomc.repositories.ProdutoRepository;
-import com.wsystec.cursomc.repositories.pagamentoRepository;
-import com.wsystec.cursomc.repositories.pedidoRepository;
+import com.wsystec.cursomc.repositories.PagamentoRepository;
+import com.wsystec.cursomc.repositories.PedidoRepository;
 
 @SpringBootApplication
 public class CursomcApplication implements CommandLineRunner {
@@ -53,10 +53,10 @@ public class CursomcApplication implements CommandLineRunner {
 	private ClienteRepository clienteRepository;
 
 	@Autowired
-	private pedidoRepository pedidoRepository;
+	private PedidoRepository pedidoRepository;
 
 	@Autowired
-	private pagamentoRepository pagamentoRepository;
+	private PagamentoRepository pagamentoRepository;
 
 	@Autowired
 	private ItemPedidoRepository itemPedidoRepository;

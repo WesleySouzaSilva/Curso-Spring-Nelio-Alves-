@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.wsystec.cursomc.domain.Pagamento;
 
 @Repository
-public interface pagamentoRepository extends JpaRepository<Pagamento, Integer> {
+public interface PagamentoRepository extends JpaRepository<Pagamento, Integer> {
 
 }

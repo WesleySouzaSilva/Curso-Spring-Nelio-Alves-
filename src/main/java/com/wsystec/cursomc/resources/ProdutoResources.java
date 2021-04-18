@@ -13,12 +13,12 @@ import com.wsystec.cursomc.services.ProdutoService;
 @RequestMapping(value = "/produtos")
 public class ProdutoResources {
 	
-	private ProdutoService produtoService;
+	private ProdutoService service;
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Produto> find(@PathVariable Integer id) {
 
-		Produto obj = produtoService.find(id);
+		Produto obj = service.find(id);
 		return ResponseEntity.ok().body(obj);
 	}
 

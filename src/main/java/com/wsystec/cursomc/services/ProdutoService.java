@@ -12,10 +12,10 @@ import com.wsystec.cursomc.repositories.ProdutoRepository;
 public class ProdutoService {
 
 	@Autowired
-	private ProdutoRepository produtoRepository;
+	private ProdutoRepository repo;
 
 	public Produto find(Integer id) {
-		Optional<Produto> obj = produtoRepository.findById(id);
+		Optional<Produto> obj = repo.findById(id);
 		return obj.orElse(null);
 	}
 

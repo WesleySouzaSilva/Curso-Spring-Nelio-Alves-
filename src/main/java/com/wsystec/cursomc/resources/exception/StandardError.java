@@ -1,4 +1,4 @@
-package com.wsystec.cursomc.services.exception;
+package com.wsystec.cursomc.resources.exception;
 
 import java.io.Serializable;
 

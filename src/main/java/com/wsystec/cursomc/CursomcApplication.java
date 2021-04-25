@@ -27,9 +27,9 @@ import com.wsystec.cursomc.repositories.ClienteRepository;
 import com.wsystec.cursomc.repositories.EnderecoRepository;
 import com.wsystec.cursomc.repositories.EstadoRepository;
 import com.wsystec.cursomc.repositories.ItemPedidoRepository;
-import com.wsystec.cursomc.repositories.ProdutoRepository;
 import com.wsystec.cursomc.repositories.PagamentoRepository;
 import com.wsystec.cursomc.repositories.PedidoRepository;
+import com.wsystec.cursomc.repositories.ProdutoRepository;
 
 @SpringBootApplication
 public class CursomcApplication implements CommandLineRunner {
